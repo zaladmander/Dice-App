@@ -32,6 +32,8 @@ public class DiceApp {
     private void processCommand(String command) {
         if (command.equals("roll")) {
             System.out.println("\t IT DONT WORK YET DUMBASS");
+        } else if (command.equals("make")) {
+            System.out.println("\t cant make yet... feature unavailable");
         } else {
             System.out.println("Not a command...");
         }
@@ -40,7 +42,8 @@ public class DiceApp {
     private void displayMainMenu() {
         System.out.println("This is a dice application.");
         System.out.println("Type 'roll' to roll a dice.");
-
+        System.out.println("Type 'make' to make a dice.");
+        System.out.println("Type 'quit' to make a quit.");
     }
 
     private void initialize() {
